@@ -43,7 +43,7 @@ jobs:
          run: |
               cd ErfanGSIs
               mkdir ./output
-              wget https://raw.githubusercontent.com/TimeMapleLing/actions_build_SGSI/main/bin/setup.sh -o setup-xiaoxin.sh
+              wget https://185.199.110.133/TimeMapleLing/actions_build_SGSI/main/bin/setup.sh -o setup-xiaoxin.sh
               sudo bash setup-xiaoxin.sh
        
        - name: Download Stock Rom & Generate GSI
